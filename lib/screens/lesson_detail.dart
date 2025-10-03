@@ -191,7 +191,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
                       onPressed: () {
                         context.push(
                           AppRouter.videoPlayer,
-                          extra: [widget.lesson.videoId, widget.lesson],
+                          extra: [widget.lesson],
                         );
                       },
                       child: Text(S.of(context).goToLesson),

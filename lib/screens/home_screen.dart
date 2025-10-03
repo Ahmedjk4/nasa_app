@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         lessonProgress[lessonKey]['isUnlocked'] ?? false,
                     isCompleted:
                         lessonProgress[lessonKey]['isCompleted'] ?? false,
-                    videoId: lessons[i].videoId,
+                    lessonId: i,
                   );
                 }
               }

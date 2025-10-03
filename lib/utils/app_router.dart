@@ -78,8 +78,7 @@ class AppRouter {
         pageBuilder: (context, state) => buildPageWithSlideRightTransition(
           state: state,
           child: VideoScreen(
-            videoId: (state.extra as List)[0] as String,
-            lessonData: (state.extra as List)[1] as LessonData,
+            lessonData: (state.extra as List)[0] as LessonData,
           ),
         ),
       ),
