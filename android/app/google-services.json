@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086156076179",
+    "project_id": "astroquest-5c79f",
+    "storage_bucket": "astroquest-5c79f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086156076179:android:b818dde9d116b840958966",
+        "android_client_info": {
+          "package_name": "com.ese.astroquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1xUo1qMKHvlTCDwr6BV1vyF9YJCD1aFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
