@@ -3,13 +3,13 @@ import 'package:nasa_app/generated/l10n.dart';
 class LessonData {
   final String title;
   final String thumbnail;
-  final String videoId;
+  final int lessonId;
   bool isUnlocked;
   bool isCompleted;
 
   LessonData({
-    required this.videoId,
     required this.title,
+    required this.lessonId,
     required this.thumbnail,
     required this.isUnlocked,
     required this.isCompleted,
@@ -24,28 +24,28 @@ class Lessons {
         thumbnail: "assets/images/lesson1thumbnail.jpg",
         isUnlocked: true,
         isCompleted: false,
-        videoId: "libKVRa01L8",
+        lessonId: 0,
       ),
       LessonData(
         title: S.of(context).lessonTwo,
         thumbnail: "assets/images/lesson2thumbnail.jpg",
         isUnlocked: false,
         isCompleted: false,
-        videoId: "XHkYf9nOK3A",
+        lessonId: 1,
       ),
       LessonData(
         title: S.of(context).lessonThree,
         thumbnail: "assets/images/lesson3thumbnail.jpeg",
         isUnlocked: false,
         isCompleted: false,
-        videoId: "3fY1bXkN6LU",
+        lessonId: 2,
       ),
       LessonData(
         title: S.of(context).lessonFour,
-        thumbnail: "assets/images/lesson1thumbnail.jpg",
+        thumbnail: "assets/images/lesson4thumbnail.jpg",
         isUnlocked: false,
         isCompleted: false,
-        videoId: "Z3d9q1mX5aA",
+        lessonId: 3,
       ),
     ];
   }
